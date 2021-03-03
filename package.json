@@ -1,0 +1,20 @@
+{
+  "name": "loopifdone-backtest",
+  "version": "1.0.0",
+  "description": "calculate the gain of loopifdone algorithm for various pair, step, and lot configurations",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daito Akimura",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "typescript": "^4.1.5"
+  },
+  "dependencies": {
+    "csv-parse": "^4.15.3",
+    "decimal.js": "^10.2.1"
+  }
+}
